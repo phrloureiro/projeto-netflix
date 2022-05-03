@@ -59,7 +59,7 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 20px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.25)100%), url("/home/pedroloureiro/Documents/Workspace/projeto-netflix/img/capalotr.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.25)100%), url("/img/capalotr.jpg");
     height: 660px;
     background-size: cover;
     display: flex;
