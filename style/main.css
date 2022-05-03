@@ -161,6 +161,7 @@ header nav a:hover {
 
 .carrossel-filmes {
     margin-top: 10px;
+    max-width: 100%;
 }
 
 .titulos-carrossel {
