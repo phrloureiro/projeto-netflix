@@ -1,0 +1,211 @@
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base da página*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--preta);
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: var(--vermelho);
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+header nav {
+    padding-bottom: 5px;
+}
+
+header nav a {
+    font-family: Arial;
+    font-size: large;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    color:white
+}
+
+/*itens sobre o filme em destaque*/
+
+.filme-principal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.25)100%), url("/home/pedroloureiro/Documents/Workspace/projeto-netflix/img/capalotr.jpg");
+    height: 660px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .sinopse {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao-assistir {
+    background-color: white;
+    border: none;
+    color: var(--preta);
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao-assistir a{
+    text-decoration: none;
+    color: var(--preta);
+}
+
+.botao-assistir:hover {
+    background-color: rgba(0,0,0,.50);
+    color: white;
+}
+
+.botao-assistir:hover a{
+    color: white;
+}
+
+.botao-info {
+    background-color: rgba(29, 29, 29, 0.75);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao-info:hover {
+    background-color: rgba(29,29,29,.40);
+    color: white;
+}
+
+.botao-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.botoes {
+    margin-top: 10%;
+}
+
+.botoes i{
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.filme-principal .container {
+    width: 35%;
+    text-align: justify;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 10px;
+}
+
+.titulos-carrossel {
+    margin-left: 40px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 25px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.item {
+    font-style: normal;
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.item a {
+    text-decoration: none;
+    color: #AAA;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.item a:hover {
+    color: white;
+}
+
+footer .rodape {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #AAA;
+}
+
+.rodape a:hover {
+    color: white;
+}
